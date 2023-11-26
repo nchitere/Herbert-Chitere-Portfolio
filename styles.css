@@ -1,13 +1,14 @@
 /* styles.css */
 
 header{
-  width: 800px;
-  Height: 800px;
+  /* width: 800px; */
+  Height: 460px;
+  margin: 20px 20px;
 }
 #navbar {
     display: flex;
-    justify-content: center;
-    position: fixed;
+    justify-content: space-between;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -20,23 +21,29 @@ img.profile-photo {
   width: 400px;
   overflow-clip-margin: content-box;
   overflow: clip;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 
 
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.4;
   min-width: 300px;
-  max-width: 500;
+  max-width: 1000;
   flex:display;
   flex-direction: column;
   margin: auto;
-  padding: 20px 20px;
+  padding: 40px 40px;
   align-items: centre;
   justify-content: centre;
+  background:rgb(181, 181, 181);
 
 }
 
@@ -44,7 +51,46 @@ body {
 
 
 #welcome{
-  color: red;
+  color: black;
   font-family: 'Times New Roman', Times, serif;
-  background: skyblue;
+  font-size: 20px;
+  font-weight: normal;
+  display:flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+
+#about{
+  color:blueviolet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.ML{
+  width:300px;
+  display:flex;
+  flex-direction:column;
+}
+
+#project{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  margin-left:auto;
+  margin-right: auto;
+  
+}
+
+#footer{
+  display:flex;
+  justify-content: space-between;
 }
